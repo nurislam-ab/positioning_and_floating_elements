@@ -94,9 +94,35 @@ body{
     font-weight: 700;
 }
 
+.brief-info h1 span {
+    display:block;
+    text-align: left;
+}
+
 
 @media(min-width:1024px){
     .brief-info h1{
     width:600px;
     }
+}
+
+.fig-container {
+    display: block;
+    margin: 43px auto;
+    max-width: 945px;
+ 
+}
+.fig-container img{
+    max-width: 945px;
+}
+
+figcaption {
+    margin-left: 0px;
+    max-width: 720px;
+    color: #666;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 16px;
 }

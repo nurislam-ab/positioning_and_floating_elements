@@ -3,7 +3,9 @@ body{
     padding:0;
 }
 
-
+/* -------------------------------------------
+                    NAVBAR
+ ---------------------------------------------*/
 .top-navigation{
     box-shadow:rgba(0,0,0,0.08) 0 0 5px 1px;
     border-bottom:1px solid #e2e2e2;
@@ -75,6 +77,10 @@ body{
 
 }
 
+
+/* -------------------------------------------
+            ARTICLE IMG & AUTHOR INFO
+ ---------------------------------------------*/
 .container{
     padding-top: 40px;
 }
@@ -163,11 +169,15 @@ figcaption {
     font-size: 13px;
 }
 
+/* -------------------------------------------
+            MAIN ARTICLE CONTENT
+ ---------------------------------------------*/
+
 
 .main-content {
     display:block;
     clear:both;
-    width: 800px;
+    width: 800px;       /* Here to control Side bar  */
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
@@ -185,6 +195,7 @@ figcaption {
 .first4-para {
     float: left;
 }
+
 .side-bar {
     display: block;
     float: right;
@@ -237,22 +248,67 @@ figcaption {
 
 }
 
+.pick-element {
+    display: block;
+    padding-top: 10px;
+    position: relative; /* for absolute positioning on editors pick */
+}
+
+.pick-element a {
+    text-decoration: none;
+}
+.pick-element a:hover {
+    text-decoration: underline;
+
+}
+
 .editors-picks-wrap h2 {
-    font-size: 16px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid rgb(226, 226, 226);    
+    font-size: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(226, 226, 226);  
+    margin-bottom: 5px;
 }
 
 .pick-img img {
     display: inline-block;
     height: auto;
     width: 75px;
-    float: left;
+ /*    float: left; */
+    clear: both;  /* to avoid everlap among picks */
  }
 
 .pick-text {
- padding-left: 85px;
- padding-top: 20px;
- font-size: 14px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    color: rgb(51, 51, 51);  
+    width: 60%;
+    height: 100%;
+    position: absolute;  /* absolute positioning relative to article */
+    top:15px;
+    left: 85px;
+}
+
+#paid-post {
+    background: #F6F6F6;
+    margin-top: 5px;
+    padding-bottom: 10px;;
+}
+
+#paid-post h3 {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 13px;
+    color: #000000;
+    top:0;
+}
+.paid-text {
+    color: #121212;
+    font-size: 12px;
+    line-height: 15px;
+    position: absolute;  /* absolute positioning relative to article */
+    top:38px;
+    left: 85px;
 }
 

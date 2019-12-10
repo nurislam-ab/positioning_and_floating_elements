@@ -511,22 +511,22 @@ top: 24.8264%;
 }
 .col-4-7{
     top: 73.4375%;
-    left: 51.0800%;
+    left: 51.08%;
 }
 
-.col-4-8{
+.col-4-8 {
     top: 73.4375%;
     left: 76.5982%;
 }
 
 .main-content-footer {
-    margin-top:16px;
-    margin-bottom:25px;
+    margin-top: 16px;
+    margin-bottom: 25px;
 }
 .main-content-footer span{
     color: #666666;
-    font-size:12px;
-    font-weight:400;
+    font-size: 12px;
+    font-weight: 400;
     line-height: 16px;
     margin-bottom: 12px;
 }
@@ -536,7 +536,7 @@ top: 24.8264%;
 }
 
 .main-content-footer a:hover{
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .comments{

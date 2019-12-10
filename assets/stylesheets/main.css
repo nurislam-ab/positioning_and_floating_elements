@@ -658,3 +658,264 @@ top: 24.8264%;
 .most-popular-news a:hover{
     color: #666
 }
+
+
+/* ---------------------------------------------------
+                     Bottom Nav
+---------------------------------------------------- */
+.bottom-nav{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 3% 9px;
+    display: block;
+}
+
+.border-nice {
+    margin-bottom: 10px;
+    clear: both;
+    border-top: 2px solid rgb(226, 226, 226);
+}
+.border-nice-slim{
+    margin-bottom: 10px;
+    clear: both;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.header-nav a {
+    display: block;
+    height: 44px;
+    vertical-align: middle;
+    width: 184px;
+    float: left;
+}
+
+#goto-home-page a {
+    float: right;
+    color: rgb(86, 123, 149);
+    font-family: nyt-franklin;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+
+}
+
+.columns-wrap {
+    clear: both;
+}
+
+.nav-columns {
+    float: left;
+    display: block;
+    position:relative;
+  
+    width: calc(100%/6);
+}
+
+.nav-columns h3 {
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 700;
+    font-family: nyt-franklin;
+    height: 25px;
+    line-height: 15px;
+    text-transform: uppercase;
+    width: 150px;
+    margin: 0px;
+}
+
+.news-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+}
+
+.news-list a {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: nyt-franklin;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.subscribe-column {
+    padding-left: 15px;
+    border-left: 1px solid rgb(226, 226, 226);
+    width: 15%;
+}
+
+.subscribe-column h3 {
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 15px;
+    text-transform: uppercase;
+/*     width: 150px; */
+    margin: 0px;
+
+}
+
+.subs-icon {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+
+.subs-list {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    border: 0;
+    
+}
+
+.subs-list li a {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 15px;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+.subs-list-b {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.subs-list-c {
+    list-style: none;
+    margin: 2px 0px 0px;
+    padding: 10px 0px 0px;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.subs-list-b a {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: nyt-franklin;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 11px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+
+
+/* ---------------------------------------------------
+                     Final Footer
+---------------------------------------------------- */
+.footer-down {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 3% 9px;
+    display: block;
+    margin-bottom: 65px;
+}
+
+#final-footer { 
+    clear: both;
+    display: block;
+}
+
+.ff-a {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 15px;
+    padding: 0;
+
+}
+
+.ff-b {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 15px;
+    padding: 0;
+
+}
+
+.ff-a li a {
+    color: rgb(102, 102, 102);
+    white-space: nowrap;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.ff-b li{
+    display: inline;
+    list-style: none;
+    line-height: 8px;
+    margin: 0 0 35px;
+    line-height: 20px;
+    padding: 0 8px;
+}
+
+
+.ff-b li a {
+    color: rgb(102, 102, 102);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    white-space: nowrap;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+/* ---------------------------------------------------
+                     Access More
+---------------------------------------------------- */
+
+.access-more {
+    text-align: center;
+    width: 100%;
+/*     margin: 0px auto; */
+/*     padding: 0px 3% 9px; */
+    display: block;
+    border-top: 1px black solid;
+    padding-top: 20px;
+    border-bottom: 15px;
+    padding-bottom: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+
+}
+
+.access-text {
+    float:left;
+    text-align: center;
+    width: 70%;
+/*     margin: auto; */
+    margin-left: 120px;
+
+    font-size: 17px;
+    line-height: 17px; 
+
+    color: rgb(0, 0, 0);  
+}
+
+.expand {
+    float: right;
+    text-align: right;
+    width: 20%;
+
+}

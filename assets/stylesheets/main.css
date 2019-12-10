@@ -544,8 +544,14 @@ top: 24.8264%;
     float:right;
 }
 
+#more-news-wrap {  /* Attempt to center the more-news section */
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+}
+
 .more-news{
-    max-width:1200px;
+    width:1200px;
     margin-top:45px;
     margin-left:34px;
     margin-right:34px;

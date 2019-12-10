@@ -79,13 +79,15 @@ button {
     vertical-align: middle;
 }
 
-#bookmark-comments svg{
+#bookmark svg,
+#bookmark-1 svg,
+#comments svg,
+#comments-1 svg{
     border:0;
     background-color:transparent;
     border-radius: 0;
     width:16px;
     height:25px;
-
 }
 
 /* -------------------------------------------
@@ -175,7 +177,7 @@ figcaption {
     text-decoration: none;
 }
 
-.float-left time {
+.float-left span {
     font-weight: 500;
     color: #333;
     font-size: 13px;
@@ -424,6 +426,24 @@ figcaption {
     left: 85px;
 }
 
+.video, .image-block{
+    margin:43px auto;
+}
+
+.video p, .image-block p{
+    margin-right: 10px;
+    color: #666;
+    font-size:16px;
+    line-height:20px;
+    font-weight:400;
+}
+
+.video p span, 
+.image-block p span{
+    color:#888;
+    font-size:13px;
+    line-height:18px;
+}
 
 .w-945{
     display: block;
@@ -545,9 +565,8 @@ top: 24.8264%;
 }
 
 #more-news-wrap {  /* Attempt to center the more-news section */
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 100%;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .more-news{
@@ -599,8 +618,15 @@ top: 24.8264%;
     margin-left:20px;
 }
 
-#margin-left-0{
+.margin-left-0{
     margin-left:0px;
+}
+
+.clearfix{
+    margin-bottom:5px;
+    display:block;
+    position:relative;
+    clear: both;
 }
 
 .col-3 a{

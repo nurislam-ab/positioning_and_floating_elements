@@ -1,6 +1,6 @@
 # Positioning and Floating Elements - New York Times article page
 
- A clone of a clone of a New York Times article page written in HTML, using CSS for styling.
+ A clone of a New York Times article page written in HTML, using CSS for styling.
 
 A clone of [New York Times article page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html).
 

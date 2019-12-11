@@ -1,23 +1,55 @@
-# positioning_and_floating_elements
+# Positioning and Floating Elements - New York Times article page
 
-Project: positioning_and_floating_elements
-This assignment/demo consists of making a clone of a New York Times article page. Practiced concepts:
+ A clone of a clone of a New York Times article page written in HTML, using CSS for styling.
 
-Embedding images
-Working with forms (buttons in this case)
-Floats and positioning
-The box model
+A clone of [New York Times article page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html).
 
-Built With
-HTML5, CSS3
+![screenshot](https://github.com/nurislam-ab/positioning_and_floating_elements/blob/features_branch/screenshot.jpg)
+			
 
-Repository Link: https://github.com/nurislam-ab/positioning_and_floating_elements
-Live Demo Link: https://nurislam-ab.github.io/positioning_and_floating_elements/
+# What it does
 
-👤 Nurislam
+It displays New York Times article page, which contains:
+- navigation bar
+- hero section
+- product/services section
+- footer
+- Embedded images and YouTube video
 
-Github: @nurislam-ab
 
-👤 Carlos Anriquez
+## Built With
 
-Github: @canriquez
+- HTML
+- CSS
+
+
+## Live Demo
+
+[Live Demo](https://nurislam-ab.github.io/building_with_backgrounds_and_gradients/index.html)
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+- Clone the project unto your local machine
+- Open up the `.html` file.
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/nurislam-ab/positioning_and_floating_elements/issues).
+
+# Authors   
+
+* Carlos https://github.com/canriquez/
+* Nurislam https://github.com/nurislam-ab
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MiT](lic.url) licensed.
+
+## Enjoy!

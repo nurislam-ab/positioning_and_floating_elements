@@ -45,10 +45,13 @@ button {
     padding: 0;
 }
 
-#onScroll{
+/* #onScroll{
+    display: none;
+} */
+
+#defaultPosition{
     display: none;
 }
-
 #defaultPosition .logo{
     margin:auto;
 }

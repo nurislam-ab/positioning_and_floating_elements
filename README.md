@@ -11,10 +11,10 @@ A clone of [New York Times article page](https://www.nytimes.com/2014/03/18/scie
 
 It displays New York Times article page, which contains:
 - navigation bar
-- hero section
-- product/services section
+- images and videos embedded
+- sidebar
 - footer
-- Embedded images and YouTube video
+- more and popular news sections
 
 
 ## Built With
@@ -25,7 +25,7 @@ It displays New York Times article page, which contains:
 
 ## Live Demo
 
-[Live Demo](https://nurislam-ab.github.io/building_with_backgrounds_and_gradients/index.html)
+[Live Demo](https://nurislam-ab.github.io/positioning_and_floating_elements/index.html)
 
 ## Getting Started
 
